@@ -1,3 +1,5 @@
+#include <windows.h>
+
 void __forceinline PolyMorphic() {
 	std::srand(GetTickCount64());
 	int x = rand() % 8;
