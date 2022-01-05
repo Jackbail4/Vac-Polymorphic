@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include <iostream>
 
-void PolyMorphic() {
+void inline PolyMorphic() {
 	std::srand(GetTickCount64());
 	int x = rand() % 8;
 	for (int i = 0; i != x; i++) {
