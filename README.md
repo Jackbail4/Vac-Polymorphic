@@ -6,7 +6,7 @@ In addition, it doesnt change any values held in registers, it just adds a littl
 ![alt text](https://i.imgur.com/989IU7Q.png)
 
 The way you use the procedure is you would call it now and again throughout your code, primarily on anything that 
-would trigger detection such as OpenProcess(PROCESS_ALL_ACCESS, 0, TargetProc). Surround these procedures with the plymorphic,
+would trigger signature detection such as OpenProcess(PROCESS_ALL_ACCESS, 0, TargetProc). Surround these procedures with the plymorphic,
 this makes it so much harder for the anticheat to find.
 
 Although this method isn't perfect, it is much better than junk code. You should use this mitigation in addition with other things such as 
