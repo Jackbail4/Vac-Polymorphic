@@ -1,6 +1,7 @@
 # Valve Anti-Cheat Pattern Detection Mitigation
 Here you can see the binaries when we add the inline polymorphic junk code. 
 It makes any anticheats job harder as long as it searches for patterns or signatures inside of code.
+In addition, it doesnt change any values held in registers, it just adds a little bit of useless asm to make signature detection harder.
 
 ![alt text](https://i.imgur.com/989IU7Q.png)
 
